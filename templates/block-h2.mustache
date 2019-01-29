@@ -1,0 +1,15 @@
+<section>
+  <h2>{{title}}</h2>
+  {{#paragraphs}}
+    {{#text}}
+      <p>{{& .}}</p>
+    {{/text}}
+    {{^text}}
+      <ul>
+      {{#list}}
+        <li>{{& .}}</li>
+      {{/list}}
+      </ul>
+    {{/text}}
+  {{/paragraphs}}
+</section>

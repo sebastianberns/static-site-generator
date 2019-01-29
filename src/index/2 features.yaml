@@ -1,0 +1,10 @@
+template: block-h2
+content:
+    title: Features
+    paragraphs:
+      - list:
+          - SCSS/SASS parsing
+          - Automatically copy inline style sheet to HTML header or external file
+          - '<a href="https://mustache.github.io">Mustache</a> templates for page modules'
+          - '<a href="https://yaml.org">YAML</a> content management'
+          - 'Optional browser refresh (OS X only: Chrome, Safari)'

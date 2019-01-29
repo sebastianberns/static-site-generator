@@ -1,0 +1,23 @@
+# Names of directories
+source: src
+build: build
+templates: templates
+
+# List of admissible file extensions
+extensions:
+  - htm
+  - html
+
+# Content file ordering
+# ASC ascending
+# DES descending
+fileorder: ASC
+
+# Path to stylesheet files (in build directory)
+sass: scss
+css: css
+style: css/style.css
+
+# Preferred browser
+# (none, chrome, safari)
+browser: none

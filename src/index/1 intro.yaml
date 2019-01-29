@@ -1,0 +1,6 @@
+template: block-h1
+content:
+    title: A simple static site generator
+    paragraphs:
+      - When I wanted to update my personal website and did not find any static site generator that fit my needs, I decided to write my own.
+      - Under development

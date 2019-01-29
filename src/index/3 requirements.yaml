@@ -1,0 +1,10 @@
+template: block-h2
+content:
+    title: Requirements
+    paragraphs:
+      - text: Python 3.6 with the following modules
+      - list:
+          - '<a href="https://docs.python.org/3/library/pathlib.html">pathlib</a>'
+          - '<a href="https://sass.github.io/libsass-python/">libsass-python</a>'
+          - '<a href="https://pyyaml.org">PyYAML</a>'
+          - '<a href="https://github.com/defunkt/pystache">Pystache</a>'
